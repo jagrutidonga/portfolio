@@ -5,75 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jagruti Donga | Solutions Architect</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <h1>Jagruti Donga</h1>
-    <p class="subtitle">Solutions Architect — Secure & Scalable Cloud Architectures</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#blog">Blog</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Jagruti Donga</h1>
+      <p class="subtitle">AWS-Certified Solutions Architect</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m an AWS-certified Solution Architect with expertise in designing resilient, scalable, and secure cloud systems. My passion lies in leveraging cloud-native technologies to drive digital transformation for businesses across industries.</p>
-  </section>
+  <main>
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>I’m Jagruti—a passionate AWS Certified Solutions Architect. I specialize in designing cloud-native, resilient, and secure infrastructures that scale with business needs.</p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills & Certifications</h2>
-    <ul>
-      <li>🔹 AWS (EC2, S3, Lambda, RDS, VPC, CloudFront, CloudWatch)</li>
-      <li>🔹 Infrastructure as Code: Terraform, CloudFormation</li>
-      <li>🔹 CI/CD: CodePipeline, GitHub Actions, Jenkins</li>
-      <li>🔹 Monitoring & Logging: CloudWatch, ELK, X-Ray</li>
-      <li>🔹 Security: IAM, KMS, SCPs, Secrets Manager</li>
-      <li>🎓 AWS Certified Solutions Architect – Associate</li>
-      <li>🎓 AWS Certified DevOps Engineer – Professional</li>
-    </ul>
-  </section>
+    <section id="skills" class="section bg-light container">
+      <h2>Skills & Certifications</h2>
+      <ul class="skills-list">
+        <li>AWS: EC2, S3, Lambda, RDS, VPC, CloudFront, CloudWatch</li>
+        <li>Infrastructure as Code: Terraform, CloudFormation</li>
+        <li>CI/CD: CodePipeline, GitHub Actions, Jenkins</li>
+        <li>Monitoring & Logging: CloudWatch, ELK, X‑Ray</li>
+        <li>Security: IAM, KMS, SCPs, Secrets Manager</li>
+        <li><strong>AWS Certified Solutions Architect – Associate</strong></li>
+        <li><strong>AWS Certified DevOps Engineer – Professional</strong></li>
+      </ul>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Multi-Region Web App Deployment</h3>
-      <p>Designed a highly available architecture using Route 53, Global Accelerator, and DynamoDB Global Tables. Enabled automatic failover and cross-region replication.</p>
-    </div>
-    <div class="card">
-      <h3>Terraform Infrastructure Modules</h3>
-      <p>Built reusable Terraform modules to provision AWS networking, ECS clusters, and IAM policies used by 10+ internal teams.</p>
-    </div>
-    <div class="card">
-      <h3>Cost-Effective CI/CD Pipelines</h3>
-      <p>Implemented blue/green deployments using CodePipeline and Lambda, reducing downtime during releases and improving rollback reliability.</p>
-    </div>
-  </section>
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Multi‑Region Web App Deployment</h3>
+          <p>Route 53 • CloudFront • ALB • DynamoDB Global Tables with auto-failover across regions.</p>
+        </div>
+        <div class="card">
+          <h3>Terraform Module Library</h3>
+          <p>Reusable modules for VPC, ECS, RDS, IAM used across 10+ team environments.</p>
+        </div>
+        <div class="card">
+          <h3>Blue/Green CI/CD Pipelines</h3>
+          <p>End-to-end deployment with CodePipeline, Lambda, and zero‑downtime releases.</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="blog">
-    <h2>Blog</h2>
-    <div class="card">
-      <h3>Cloud Resume Challenge: Lessons Learned</h3>
-      <p>My takeaways from building a fully serverless resume website on AWS.</p>
-    </div>
-    <div class="card">
-      <h3>Secrets Management in AWS: Best Practices</h3>
-      <p>A deep dive into secure handling of secrets using Secrets Manager, Parameter Store, and KMS.</p>
-    </div>
-  </section>
+    <section id="blog" class="section bg-light container">
+      <h2>Blog</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Cloud Resume Challenge: Lessons Learned</h3>
+          <p>My journey building a serverless portfolio website on AWS.</p>
+        </div>
+        <div class="card">
+          <h3>Secrets Management in AWS: Best Practices</h3>
+          <p>Exploring secure handling using AWS Secrets Manager and KMS.</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
-  </section>
+    <section id="contact" class="section container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Jagruti Donga. All rights reserved.</p>
+    <div class="container">
+      <p>© 2025 Jagruti Donga. All rights reserved.</p>
+    </div>
   </footer>
 
 </body>
